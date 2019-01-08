@@ -1,0 +1,23 @@
+{
+  "name": "pascalcoind-ha",
+  "version": "1.0.0",
+  "description": "Runs the PascalCoin Daemon and restarts it in case of it disconnecting from the network",
+  "main": "lib/daemon.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "PascalCoin"
+  ],
+  "author": "",
+  "license": "GPL-2.0",
+  "dependencies": {
+    "cli-color": "^1.4.0",
+    "dateformat": "^3.0.3",
+    "request": "^2.88.0",
+    "stream-splitter": "^0.3.2"
+  }
+}
